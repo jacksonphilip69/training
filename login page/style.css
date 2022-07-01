@@ -1,0 +1,84 @@
+#left {
+  display: grid;
+  gap: 10px;
+  height: 400px;
+  border: 5px solid black;
+  width: 30%;
+  border-radius: 40px;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+}
+
+#right {
+  display: grid;
+  gap: 10px;
+  height: 400px;
+  border: 5px solid black;
+  width: 30%;
+  border-radius: 40px;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+}
+
+#box {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#email,
+#password,
+#username,
+#emai,
+#pass {
+  width: 80%;
+  height: 50%;
+  margin: auto auto;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+#b1 {
+  width: 60%;
+  height: 40%;
+  margin: auto auto;
+  border-radius: 5px;
+  background-color: teal;
+  font-size: large;
+  font-weight: bold;
+}
+
+#b2 {
+  width: 60%;
+  height: 50%;
+  margin: auto auto;
+  border-radius: 5px;
+  background-color: teal;
+  font-size: large;
+  font-weight: bold;
+}
+
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+}
+
+#hd {
+  padding: 10px;
+}
+
+#b1:hover,
+#b2:hover {
+  background-color: mediumseagreen;
+}
+
+#log{
+  color: aliceblue;
+}
+
+#for{
+  color: chartreuse;
+}

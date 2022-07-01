@@ -1,0 +1,67 @@
+#header{
+    background-color: rgb(94, 177, 47);
+    height: 80px;
+    align-items: center;
+}
+
+#body{
+   
+     background-image: url("https://w7.pngwing.com/pngs/316/307/png-transparent-illustration-of-cakes-and-cupcakes-muffin-dessert-cake-candy-cake-background-food-baking-heart-thumbnail.png");
+    /* background-repeat: no-repeat; */
+     height: 450px;                   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer{
+    background-color: rgb(94, 177, 47);
+    height: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+}
+
+#img{
+    position: relative;
+    height: 100px;
+    width: 150px;
+    border: 2px whitesmoke;
+    border-radius: 50px;
+    margin: 0px 600px 0px 600px;           
+}
+
+button{
+    margin: 25px;
+    border-radius: 5px;      
+    background-color: wheat;            
+    color: black;
+}
+                                                    
+fieldset{
+    border: 5px solid rgb(105, 29, 29);       
+    height: 250px;                                      
+    width: 200px;   
+    border-style: dashed;   
+}
+
+#div2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#don{
+    height: 30px;
+    width: 40px;
+    margin: auto;
+}
+
+button:hover{
+    background-color: white;
+    color: green;
+}
+
+#head{
+    border:solid rgb(255, 208, 208);
+    background-color: rgb(246, 229, 232);
+}

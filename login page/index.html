@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center><h1 id="hd">Welcome</h1></center>
+    <div id="box">
+      <div id="left">
+        <center><h1>Log in Here</h1></center>
+        <input id="email" type="text" placeholder="Enter Email" />
+        <input id="password" type="password" placeholder="Enter Password" />
+        <button id="b1" onclick="log()">Log In</button>
+        <center>
+          <p id="for"><a  href="#" onclick="pas()">forgot Password</a></p>
+          <p id="log">
+            Create a new account ..<a href="#username">Click Here</a>
+          </p>
+        </center>
+      </div>
+      <div id="right">
+        <center><h1>Create a New Account</h1></center>
+        <input id="username" type="text" placeholder="Enter  Name" />
+        <input id="emai" type="text" placeholder="Enter Email" />
+        <input id="pass" type="password" placeholder="Enter Password" />
+        <button id="b2" onclick="sign()">Sign up</button>
+        <center>
+          <p id="log">
+            Already have an Account ?..<a href="#email">Click Here</a>
+          </p>
+        </center>
+      </div>
+    </div>
+    <script src="script.js  "></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
